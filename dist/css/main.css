@@ -172,7 +172,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: url("../img/me.jpg") center;
+  background: url("/img/me.jpg") center;
   background-size: cover;
 }
 
@@ -195,8 +195,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("../img/tree.jpg") center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("../img/tree.jpg") center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("/img/tree.jpg") center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("/img/tree.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,8 +280,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("../img/tree.jpg") center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("../img/tree.jpg") center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("/img/tree.jpg") center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("/img/tree.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,8 +403,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("../img/tree.jpg") center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("../img/tree.jpg") center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("/img/tree.jpg") center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("/img/tree.jpg") center;
   background-size: cover;
 }
 
