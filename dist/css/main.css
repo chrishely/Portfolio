@@ -100,7 +100,7 @@
       justify-content: space-around;
   height: 100vh;
   overflow: hidden;
-  background: #2e2828;
+  background: #0c0b0b;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -223,6 +223,7 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  background: rgba(0, 0, 0, 0.301);
 }
 
 .about__bio .text-secondary {
@@ -240,7 +241,7 @@
 }
 
 .about .jobs__job {
-  background: #3c3434;
+  background: #191717;
   padding: 0.5rem;
   border-bottom: 5px solid #02f7ff;
 }
@@ -278,7 +279,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: url("/dist/img/me.jpg") center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("/dist/img/tree.jpg") center top;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("/dist/img/tree.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,7 +299,7 @@
 
 .projects .text-secondary {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .projects__items {
@@ -319,6 +321,7 @@
 
 .projects__item img {
   width: 100%;
+  height: auto;
 }
 
 .projects__item::after {
@@ -399,7 +402,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("/dist/img/me.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(245, 4, 4, 0.4))), url("/dist/img/tree.jpg") center top;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url("/dist/img/tree.jpg") center top;
   background-size: cover;
 }
 
@@ -487,7 +491,7 @@
 }
 
 body {
-  background: #2e2828;
+  background: #0c0b0b;
   color: #ffffff;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

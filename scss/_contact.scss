@@ -5,7 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: url('/dist/img/me.jpg') center top;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(245, 4, 4, 0.4)), url('/dist/img/tree.jpg') center top;
 	background-size: cover;
 
 	h2 {
